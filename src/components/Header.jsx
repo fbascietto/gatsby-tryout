@@ -144,6 +144,12 @@ const Header = () => {
           </Popover.Group>
         </div>
       </div>
+    </Popover> 
+  )
+}
+
+export { Header }
+
 /*
       <Transition
         as={Fragment}
@@ -224,8 +230,3 @@ const Header = () => {
           </div>
         </Popover.Panel>
       </Transition> */
-    </Popover> 
-  )
-}
-
-export { Header }
